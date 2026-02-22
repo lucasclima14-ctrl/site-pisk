@@ -1,0 +1,213 @@
+/* Lista de livros */
+div.lista {
+    margin-top: 20px;
+}
+
+div.lista h3 a {
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+div.lista h3 a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+    transition: all 350ms;
+}
+
+div.lista div.row {
+    width: 100%;
+}
+
+div.lista div.row div.col-12 {
+    padding: 5px 0;
+    margin-top: 15px;
+}
+
+div.lista div.row div.col-12 div {
+    display: grid;
+    place-items: center;
+    padding: auto;
+}
+
+div.lista div.row div.col-12 div img {
+    width: 150px;
+    height: 220px;
+    border: #000 solid 2px;
+    border-radius: 10px;
+    transition: all 500ms;
+}
+
+div.lista div.row div.col-12 div:hover img {
+    width: 160px;
+    height: 230px;
+    transition: all 1s;
+}
+
+div.lista div.row div.col-12 div div {
+    width: 100%;
+    margin-top: 5px;
+    
+}
+
+div.lista div.row div.col-12 div div p.text {
+    font-size: larger;
+    margin-bottom: 0px;
+}
+
+div.lista div.row div.col-12 div div p.long-text {
+    font-size: large;
+    color: green
+}
+
+div.lista div.row div.col-12 div div a.btn {
+    color: #fff;
+    background-color: blueviolet;
+    padding: 7px;
+    transition: all 200ms;
+}
+
+div.lista div.row div.col-12 div div a.btn:hover {
+    background-color: rgb(114, 33, 190);
+    color: gold;
+    transition: all 350ms;
+}
+
+
+/* Anúncio */
+div.anuncio-container {
+    display: flex;
+    justify-content: center;
+}
+div.anuncio-container div.anuncio {
+    min-width: 300px;
+    max-width: 550px;
+    width: auto;
+    height: 550px;
+    margin: 25px 50px;
+    margin-bottom: 0;
+    padding: 20px;
+    background-color: blueviolet;
+    border: rgb(var(--lite-violet)) solid 2px;
+    border-radius: 15px;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+div.anuncio-container div.anuncio div {
+    display: flex;
+}
+
+div.anuncio-container div.anuncio div img {
+    width: 60px;
+    height: 60px;
+    position: static;
+}
+
+div.anuncio-container div.anuncio div h1 {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+div.anuncio-container div.anuncio p {
+    margin-bottom: 350px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.anuncio-container div.anuncio img {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: auto;
+}
+
+
+/* Informações sobre a Pisk */
+section.info {
+    margin: 0 auto;
+    width: 95vw;
+    padding: 0;
+    background-color: rgba(var(--bege, 0.8));
+    border: goldenrod solid 2px;
+    border-radius: 15px;
+}
+section.info div.info {
+    margin: 0;
+    padding: 30px;
+    height: 100%;
+    width: 100%;    
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+section.info div.info div p {
+    font-size: larger;
+    text-indent: 20px;
+}
+
+section.info div.info img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    section.info div.info {
+        display: grid;
+        padding: 10px;
+    }
+
+    section.info div.info img {
+        margin: 10px auto;
+    }
+    
+}
+
+
+/* Fundadores */
+section.fundadores h2.title {
+    text-align: center;
+}
+
+section.fundadores div {
+    display: grid;
+    place-items: center;
+    margin: 15px auto;
+}
+
+section.fundadores div img.fundador {
+    width: 200px;
+    height: 200px;
+    border: rgb(var(--dark-violet)) groove 5px;
+    border-radius: 50px;
+}
+
+section.fundadores div p.text {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+/* Autores de destaque */
+section.autores div {
+    display: grid;
+    place-items: center;
+    margin: 15px auto;
+}
+
+section.autores div img.autor {
+    width: 200px;
+    height: 200px;
+    border: rgba(88, 0, 88, 0.9) double 5px;
+    border-radius: 50%;
+}
+
+section.autores div p.text {
+    font-size: larger;
+    font-weight: bold;
+}

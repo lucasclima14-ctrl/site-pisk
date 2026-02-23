@@ -19,5 +19,5 @@ Importe o banco de dados (se houver um arquivo .sql) no seu phpMyAdmin.
 Configure as credenciais no arquivo conexao.php.
 Acesse localhost/site-pisk no seu navegador.
 
-Autores
+Autores:
 Lucas Lima, João Gabriel, João Eduardo
